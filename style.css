@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+
+    flex-direction: column;
+    height: 80vh;
+    width: 300px;
+}
+
+.button {
+    height: 60px;
+    width: 60px;
+    margin: 2px 2px;
+    border: none;
+    border-radius: 60px;
+    font-size: 25px;
+    background-color: rgba(49, 49, 49, 1);
+    color: white;
+    font-weight: bolder;
+}
+
+#input{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: black;
+    margin: 10px;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: right;
+    padding: 4px;
+}
+
+/* ******* Utlity Classes************ */
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.grey {
+    background-color: rgba(149, 149, 149, 1);
+    color: black;
+}
